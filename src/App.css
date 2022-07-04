@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.kTxt {
+  color: rgb(66, 66, 127);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnHover:hover,
+.btnHover:focus {
+  background-color: white;
+  border-radius: 50px;
+  color: black !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jumboTron {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: end;
 }
 
-.App-link {
-  color: #61dafb;
+.imageJumbo {
+  width: 500px;
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textJumbotron {
+  align-self: center;
+}
+.wave {
+  width: 100%;
+}
+
+.marketCrypto {
+  height: 100vh;
+}
+
+.textMarket {
+  color: gray !important;
+  cursor: pointer;
+  border: none;
+}
+
+.textMarket:hover,
+.textMarket:focus {
+  color: black !important;
+}
+
+.textCoin {
+  color: gray !important;
+}
+
+.textPersen {
+  color: green;
+}
+
+.btnBuy {
+  border: 1px solid #dbdbdb !important;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
